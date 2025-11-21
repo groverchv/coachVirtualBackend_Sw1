@@ -12,7 +12,7 @@ class Usuario(AbstractUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
     
-    # Sistema de suscripciones (preparado, no activo aún)
+    # Sistema de suscripciones (preparado, no activo aún)fdfgd
     plan_actual = models.CharField(
         max_length=20,
         choices=[
